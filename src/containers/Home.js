@@ -1,11 +1,11 @@
-import Layout from '../layout'
 import { HomeComponent } from '../components/index'
+import LayoutWrapper from '../layout';
 
 const Home = () => {
 	return (
-		<Layout>
+		<LayoutWrapper>
 			<HomeComponent />
-		</Layout>
+		</LayoutWrapper>
 	)
 }
 

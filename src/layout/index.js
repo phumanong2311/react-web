@@ -1,7 +1,7 @@
 import React from 'react'
 import LayoutHeader from './LayoutHeader'
 
-const Layout = ({ children }) => {
+const LayoutWrapper = ({ children }) => {
 	return (
 		<div className='min-vh-100 d-flex flex-column'>
 			<LayoutHeader />
@@ -10,4 +10,4 @@ const Layout = ({ children }) => {
 	)
 }
 
-export default Layout
+export default LayoutWrapper

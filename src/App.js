@@ -1,5 +1,5 @@
 import './App.css';
-import PrivateRoute from './containers/PrivateRoute';
+import PrivateRoute from './routes/PrivateRoute';
 
 const App = () => {
   return (
