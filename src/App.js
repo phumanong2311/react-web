@@ -1,9 +1,12 @@
+import { MantineProvider } from '@mantine/core';
 import './App.css';
 import PrivateRoute from './routes/PrivateRoute';
 
 const App = () => {
   return (
-    <PrivateRoute />
+    <MantineProvider withGlobalStyles withNormalizeCSS>
+      <PrivateRoute />
+    </MantineProvider>
   );
 }
 

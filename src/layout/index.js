@@ -1,11 +1,11 @@
 import React from 'react'
-import LayoutHeader from './LayoutHeader'
+import { NavBar } from './NavBar'
 
 const LayoutWrapper = ({ children }) => {
 	return (
-		<div className='min-vh-100 d-flex flex-column'>
-			<LayoutHeader />
-			<main className='flex-grow-1 d-flex'>{children}</main>
+		<div className='container mx-auto'>
+			<NavBar />
+			<main className=''>{children}</main>
 		</div>
 	)
 }
